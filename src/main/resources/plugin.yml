@@ -1,7 +1,7 @@
-name: Devathon Project
-description: A project for the Devathon contest
-version: 1.0.0
-author: Your Name Here
+name: Matthewn7-${project.artifactId}-${project.name}
+version: ${project.version}
+description: ${project.description}
+authors: [JustMatt]
+website: ${project.url}
 
-main: org.devathon.contest2016.DevathonPlugin
-
+main: ${project.groupId}.${project.artifactId}.${project.name}Plugin
